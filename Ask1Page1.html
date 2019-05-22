@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>  Γλώσσες Προγραμματισμού  </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        
+        <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+            $("#l1").fadeOut("slow");
+            $("#l2").fadeOut("slow");
+            
+            });
+        });
+        
+        </script>
+        <script>
+            $(document).ready(function(){
+            $("#b2").click(function(){
+            $("#l1").fadeIn("slow");
+            $("#l2").fadeIn("slow");
+                
+            });
+        });
+        </script>
+        <script>
+            $(document).ready(function(){
+            $("#hide").click(function(){
+            $("#l2").hide();
+            $("#l1").hide();
+            
+                
+            });
+        });
+        </script>
+        <script>
+            $(document).ready(function(){
+            $("#show").click(function(){
+            $("label").show();
+            
+                
+            });
+        });
+        </script>
+        
+        <script> 
+            $(document).ready(function(){
+            $("#animateR").click(function(){
+            $("#image").animate({left: '-=30px'});
+            });
+            });
+        </script>
+        <script> 
+            $(document).ready(function(){
+            $("#animateL").click(function(){
+            $("#image").animate({left: '+=30px'});
+            });
+            });
+        </script> 
+        
+        <link rel="stylesheet" href="ask1.css">
+    </head>
+    
+    <body>
+    
+    <header>
+     Γλώσσες Προγραμματισμού</header>
+    
+    <section>
+    <nav class="menu"><b><ul>
+        <li><a href="Index.html">Αρχική   Σελίδα - Start   Page</a></li>
+        <li>
+        <a href="Ask1Page2.html"> Γλώσσα Προγραμματισμού C </a></li>
+    
+    <li>
+    <a href="Ask1Page3.html"> Γλώσσα Προγραμματισμού C# </a>
+        </li><li>
+    
+    <a href="Ask1Page1.html"> Γλώσσα Προγραμματισμού Java </a>
+        </li></ul></b>
+    
+    </nav>
+    <article>
+    <h1>
+   Java
+    </h1><p>   
+        Η Java είναι μια αντικειμενοστρεφής γλώσσα προγραμματισμού που σχεδιάστηκε από την εταιρεία πληροφορικής Sun Microsystems.  </p>
+        
+        <br>
+        <h1>Ιστορία</h1>
+        <p> Στις αρχές του 1991, η Sun αναζητούσε το κατάλληλο εργαλείο για να αποτελέσει την πλατφόρμα ανάπτυξης λογισμικού σε μικρο-συσκευές (έξυπνες οικιακές συσκευές έως πολύπλοκα συστήματα παραγωγής γραφικών). Τα εργαλεία της εποχής ήταν γλώσσες όπως η C++ και η C. Μετά από διάφορους πειραματισμούς προέκυψε το συμπέρασμα ότι οι υπάρχουσες γλώσσες δεν μπορούσαν να καλύψουν τις ανάγκες τους. Ο "πατέρας" της Java, James Gosling, που εργαζόταν εκείνη την εποχή για την Sun, έκανε ήδη πειραματισμούς πάνω στη C++ και είχε παρουσιάσει κατά καιρούς κάποιες πειραματικές γλώσσες (C++ ++,που μετέπειτα ονομάστηκε C# ) ως πρότυπα για το νέο εργαλείο που αναζητούσαν στην Sun. Τελικά μετά από λίγο καιρό κατέληξαν με μια πρόταση για το επιτελείο της εταιρίας, η οποία ήταν η γλώσσα Oak. Το όνομά της το πήρε από το ομώνυμο δένδρο (βελανιδιά) το οποίο ο Gosling είχε έξω από το γραφείο του και έβλεπε κάθε μέρα.  </p>
+        <br>
+        <h1>H εξαγορά από την Oracle και το μέλλον της Java</h1><p><img src="Java.png" width="250" height="250"/>Στις 27 Απριλίου 2010 η εταιρία λογισμικού Oracle Corporation ανακοίνωσε ότι μετά από πολύμηνες συζητήσεις ήρθε σε συμφωνία για την εξαγορά της Sun Microsystems και των τεχνολογιών (πνευματικά δικαιώματα/ πατέντες) που η δεύτερη είχε στην κατοχή της ή δημιουργήσει. Η συγκεκριμένη συμφωνία θεωρείται σημαντική για το μέλλον της Java και του γενικότερου οικοσυστήματος τεχνολογιών γύρω από αυτή μιας και ο έμμεσος έλεγχος της τεχνολογίας και η εξέλιξη της περνάει σε άλλα χέρια. </p>
+        <h1>Τα χαρακτηριστικά της Java</h1><p>Ένα από τα βασικά πλεονεκτήματα της Java έναντι των περισσότερων άλλων γλωσσών είναι η ανεξαρτησία του λειτουργικού συστήματος και πλατφόρμας. Τα προγράμματα που είναι γραμμένα σε Java τρέχουνε ακριβώς το ίδιο σε Windows, Linux, Unix και Macintosh (σύντομα θα τρέχουν και σε Playstation καθώς και σε άλλες κονσόλες παιχνιδιών) χωρίς να χρειαστεί να ξαναγίνει μεταγλώττιση (compiling) ή να αλλάξει ο πηγαίος κώδικας για κάθε διαφορετικό λειτουργικό σύστημα. Για να επιτευχθεί όμως αυτό χρειαζόταν κάποιος τρόπος έτσι ώστε τα προγράμματα γραμμένα σε Java να μπορούν να είναι «κατανοητά» από κάθε υπολογιστή ανεξάρτητα του είδους επεξεργαστή (Intel x86, IBM, Sun SPARC, Motorola) αλλά και λειτουργικού συστήματος (Windows, Unix, Linux, BSD, MacOS). Ο λόγος είναι ότι κάθε κεντρική μονάδα επεξεργασίας κατανοεί διαφορετικό κώδικα μηχανής. Ο συμβολικός κώδικας (assembly) που μεταφράζεται και εκτελείται σε Windows είναι διαφορετικός από αυτόν που μεταφράζεται και εκτελείται σε έναν υπολογιστή Macintosh. Η λύση δόθηκε με την ανάπτυξη της Εικονικής Mηχανής (Virtual Machine ή VM ή ΕΜ στα ελληνικά). </p>
+        
+    </article>
+    
+    <aside>
+    <h1>Eξωτερικοί Σύνδεσμοι:</h1><br><hr/>
+    <a href="https://el.wikipedia.org/wiki/Java"> Java wikipedia</a>
+    <hr/>
+        <a href="https://www.youtube.com/watch?v=r59xYe3Vyks&list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al"> Java Youtube Tutorials </a>
+    <hr/><br><br>
+        jQuery's Εφέ
+        <hr/>
+        
+        <label id="l1"> Java is an OOP Language</label><br>
+        <label id="l2"> Java is cool</label><br>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button><br>
+        <button id="b1">FadeOut</button>
+        <button id="b2">FadeIn</button><br><br>
+        
+    
+        <button id="animateR">Animate Left</button><button id="animateL">Animate Right</button><br><br>
+        <img id="image" src="programmer.png" width="50" height="50" style="position: absolute;"/>
+    </aside>
+    </section>
+    <footer>
+    <p>END</p>   
+    </footer>
+    </body>
+    
+    
+    </html>

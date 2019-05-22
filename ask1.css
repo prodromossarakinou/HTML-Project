@@ -1,0 +1,144 @@
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+section{
+    height: 100%;
+}
+nav {
+  float: left;
+  width: 15%;
+  background: lightgray;
+  padding: 20px;
+  padding-bottom: 15%;
+    height: 100%;
+  /* height: 300px; */
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+    height: 100%;
+    max-height:100%;
+  background-color: lightskyblue;
+  /* height: 300px;  */
+  padding-bottom: 9.5%;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  clear:left;
+}
+aside{
+    background-color: lightgray;
+    float: right;
+    width: 15%;
+	text-align: center;
+    height: 100%;
+    max-height:100%;
+	padding-bottom: 21.4%;
+}
+a{
+    font-size: 15px;
+    padding: 3px;
+    
+    
+
+}
+
+img{
+    float: right;
+/*	height: 90%;*/
+}
+
+h1{
+    font-style: oblique;
+    font-size: 18px;
+}
+h2{
+    font-size: 15px;
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    height: 100%;
+    max-height:100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+p{
+    font-size:16px;
+}
+ul{
+    text-align: left;   
+}
+
+ol.fontsize{
+    
+    font-size: 15px; 
+				
+}
+			
+
+			
+ol.changecolor{
+    
+    color:blue;
+}
+			
+ol.bcolor {
+    
+    background-color: red;
+}
+			
+
+mright{
+    float: right;
+	height: 90%;
+}
+
+video{
+    float: right;
+	height: 90%;
+}
+* {
+  box-sizing: border-box;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    
+}
+td:empty{
+    visibility: hidden;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+myl.order{
+    list-style-type:square;
+}
+button{
+    width: 180px;
+}
